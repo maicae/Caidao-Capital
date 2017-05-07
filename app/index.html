@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <script src="https://fonts.google.com/?selection.family=Lato|Roboto"></script>
+    <link rel="stylesheet" type="text/css" href="./font-awesome-4.7.0/css/font-awesome.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:700|Roboto:500,700" rel="stylesheet">
 </head>
 <body>
 
@@ -40,13 +42,13 @@
 
 		<div class="navbar-collapse collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a style="color:black" href="#">OUR BUSINESS</a></li>
-                <li><a style="color:black" href="#">OUR PHILOSOPHY</a></li>
-                <li><a style="color:black" href="#">OUR TEAM</a></li>
-                <li><a style="color:black" href="#">OUR ADVISORS</a></li>
-                <li><a style="color:black" href="#">CONTACT INFO</a></li>
-                <li><a style="color:black" href="#"><i class="fa fa-facebook social"></i></a></li>
-                <li><a style="color:black" href="#"><i class="fa fa-twitter social"></i></a></li>
+				<li><a style="color:black" href="#"><div class="hoverline"></div>OUR BUSINESS</a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div>OUR PHILOSOPHY</a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div>OUR TEAM</a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div>OUR ADVISORS</a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div>CONTACT INFO</a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div><i class="fa fa-facebook social"></i></a></li>
+                <li><a style="color:black" href="#"><div class="hoverline"></div><i class="fa fa-twitter social"></i></a></li>
 			</ul>
 		</div>
 		</div>
@@ -57,38 +59,36 @@
 	<div class="opacity80">
 		<div class="c3">
 			<div class="container">
-				<div id="myCarousel" data-ride="carousel" data-pause="true">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="true">
 					<div class="carousel-inner">
 						<div class="item active">
 							<h5 class="heading">OUR BUSINESS</h5>
 							<h4 class="heading">ALTERNATIVE INVESTMENTS</h4>
 							<hr>
 							<div class="box col-md-4">
-								<h5>PRIVATE INVESTMENTS</h5>
-								<p>Our extensive and long standing experience gains us exclusive access to early stage and late stage technology deals. We provide strategic advice, financial planning, corporate governance, restructuring, business networks, and investment services.</p>
+								<h5 class="heading1">PRIVATE INVESTMENTS</h5>
+								<p class="heading2">Our extensive and long standing experience gains us exclusive access to early stage and late stage technology deals. We provide strategic advice, financial planning, corporate governance, restructuring, business networks, and investment services.</p>
 							</div>
 							<div class="box col-md-4">
-								<h5>REAL STATE INVESTMENTS</h5>
-								<p>With GREA, our real estate partner, we provide the full range of buy side and sell side services for our clients, and work primary on off market commercial transactions, with a focus on Europeans and U.S. assets. (www.GREA.de)</p>
+								<h5 class="heading1">REAL STATE INVESTMENTS</h5>
+								<p class="heading2">With GREA, our real estate partner, we provide the full range of buy side and sell side services for our clients, and work primary on off market commercial transactions, with a focus on Europeans and U.S. assets. (www.GREA.de)</p>
 							</div>
 							<div class="box col-md-4">
-								<h5>ANGEL INVESTMENT CLUB</h5>
-								<p>In 2016, we established the Women’s Angel Investment Club. Our Angel network offers successful women innovative, early stage investment opportunities. <br/> <br/> We invest in selected deals and then provide our clients direct investment or co-investment opportunities as well as secondary investment opportunities through special purpose vehicles.</p>
+								<h5 class="heading1">ANGEL INVESTMENT CLUB</h5>
+								<p class="heading2">In 2016, we established the Women’s Angel Investment Club. Our Angel network offers successful women innovative, early stage investment opportunities. <br/> <br/> We invest in selected deals and then provide our clients direct investment or co-investment opportunities as well as secondary investment opportunities through special purpose vehicles.</p>
 							</div>
 						</div>
-
-						<div class="item">
-							<h5 class="heading">OUR BUSINESS</h5>
-						</div>
-
-					</div>
+							<div class="item">
+								<img src="./img/hehe.jpg">
+							</div>
+					</div>	
 				</div>
 
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-menu-left"></span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-menu-right"></span>
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
 			</a>
 
 			</div>
@@ -300,13 +300,56 @@
 
 <div class="c10">
 	<div class="container">
-		<div class="3">
-			<img src="./img/logo.png">
+		
+		<div class="col-md-3">
+			<img class="flogo" src="./img/logo.png">
 			<div class="linec10"></div>
 		</div>
-		<div class="9">
-			
+
+		<div class="col-md-9">
+			<div class="footercol">
+				<img class="icon" src="./img/address.png">
+				<span class="descri1">5/F Lee Kee Commercial Building</span></br>	
+				<span class="descri2">221 – 227 Queen's Road Central</span>
+			</div>
+
+		<div class="footercol">
+			<img class="icon" src="./img/telephone.png">
+			<span class="descri1">Telephone</span></br>	
+			<span class="descri2">+852 3793 3890</span>
 		</div>
+
+		<div class="footercol">
+			<img class="icon" src="./img/fax.png">
+			<span class="descri1">Fax</span></br>	
+			<span class="descri2">+852 3101 9606</span>
+		</div>
+
+		<div class="footercol">
+			<img class="icon" src="./img/website.png">
+			<span class="descri1">Website</span></br>	
+			<span class="descri2">www.caidaocapital.com</span>
+		</div>
+		
+		<div class="footercol">
+			<button type="button" class="btn btn1">SEND US A MESSAGE
+			<i class="fa fa-1x fa-chevron-right footerarrow"></i></button>
+		</div>
+
+		<div class="footercol">
+			<button type="button" class="btn btn2">SUBSCRIBE TO NEWSLETTER
+			<i class="fa fa-1x fa-chevron-right footerarrow"></i></button>
+		</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="c11">
+	<div class="container">
+		<div class="col-md-7">
+		Website designed and developed by StartupGarage. Copright © 2017. All Rights Reserved</div>
+		<div class="col-md-5">DISCLAIMER & PRIVACY STATEMENT      |      WEBSITE Terms & Conditions</div>
 	</div>
 </div>
 

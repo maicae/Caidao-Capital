@@ -4,13 +4,16 @@ body {
 .c1 {
   background-color: #000;
   padding: 5px 5px 5px 5px;
-  color: #fff; }
+  color: #fff;
+  font-family: Lato-Bold;
+  font-family: 'Lato', sans-serif; }
   .c1 i {
     color: #fff;
     padding-right: 5px; }
 
 .c2 {
-  background-color: #fff; }
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif; }
   .c2 .navbar-default {
     background-color: transparent;
     border-color: transparent; }
@@ -29,8 +32,11 @@ body {
       text-align: center;
       padding-top: 8px;
       background-color: #ce000c; }
-  .c2 li:hover {
-    border-bottom: 4px solid #ce000c; }
+  .c2 li:hover .hoverline {
+    border-bottom: 3px solid #ce000c;
+    width: 80%;
+    bottom: 0px;
+    position: absolute; }
 
 .parallax1 {
   background-image: url(".././img/largeimg.png");
@@ -57,16 +63,12 @@ body {
     text-align: center;
     color: #fff;
     margin: 50px 0px 100px 0px; }
-  .parallax1 .carousel-control.left {
-    margin-top: 27%;
-    padding-right: 70px;
-    background-image: none;
-    font-size: 50px; }
-  .parallax1 .carousel-control.right {
-    margin-top: 27%;
-    padding-left: 50px;
-    background-image: none;
-    font-size: 50px; }
+  .parallax1 .heading1 {
+    font-family: 'Roboto', sans-serif; }
+  .parallax1 .heading2 {
+    font-family: 'Roboto', sans-serif; }
+  .parallax1 .carousel-control.left, .parallax1 .carousel-control.right {
+    background-image: none; }
 
 .c4 {
   padding-bottom: 50px; }
@@ -75,6 +77,10 @@ body {
   .c4 .nd {
     margin: 10px 0px 0px 0px;
     text-align: justify; }
+  .c4 .rst, .c4 .nd, .c4 .first {
+    font-family: 'Roboto', sans-serif; }
+  .c4 .second {
+    src: url("./fonts/futura-std-medium-58f5bbb4b1d57.otf"); }
   .c4 .c4box .circle, .c4 .c5box .circle {
     max-width: 80px;
     max-height: 80px;
@@ -110,15 +116,16 @@ body {
     background-image: none;
     font-size: 30px; }
 
-.c6 {
-  padding-top: 40px;
+.c6, .c8 {
+  padding-top: 60px;
   padding-bottom: 80px; }
-  .c6 .teambio {
+  .c6 .teambio, .c8 .teambio {
     margin-top: 15px; }
-  .c6 .c6name {
+  .c6 .c6name, .c8 .c6name {
     margin-left: 50px; }
-  .c6 .bio {
-    text-align: justify; }
+  .c6 .bio, .c8 .bio {
+    text-align: justify;
+    margin-bottom: 80px; }
 
 .parallax3 {
   background-image: url(".././img/advisors.png");
@@ -140,9 +147,6 @@ body {
     background-image: none;
     font-size: 30px; }
 
-.c8 {
-  padding: 60px 0px 80px 0px; }
-
 .c9 {
   margin-top: 40px; }
   .c9 img {
@@ -150,9 +154,41 @@ body {
     height: 100%; }
 
 .c10 {
-  margin-top: 40px; }
+  margin: 60px 0px 20px 0px; }
+  .c10 .flogo {
+    margin-top: 10px; }
   .c10 .linec10 {
+    overflow: hidden;
     border: 1px solid #c9c9c9;
-    height: 100px;
+    height: 150px;
     width: -0px;
-    margin: -70px 0px 0px 250px; }
+    margin: -100px 0px 0px 250px; }
+
+.footercol {
+  display: inline-block;
+  padding-left: 20px; }
+
+.descri2 {
+  margin-left: 35px; }
+
+.btn1 {
+  color: #fff;
+  margin-top: 20px;
+  background-color: #be0000; }
+  .btn1 .footerarrow {
+    padding-left: 80px;
+    font-size: 13px; }
+
+.btn2 {
+  color: #fff;
+  margin-top: 20px;
+  background-color: #be0000; }
+  .btn2 .footerarrow {
+    padding-left: 25px;
+    font-size: 13px; }
+
+.c11 {
+  background-color: #be0000;
+  padding: 5px 5px 5px 5px;
+  color: #fff;
+  font-size: 13px; }

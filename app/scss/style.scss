@@ -5,6 +5,7 @@ $color4:#be0000;
 $color5:#c4c4c4;
 $color6:#6f6f6f;
 $color7:#c9c9c9;
+$color8:#be0000;
 
 body {
 	margin: 0;
@@ -46,18 +47,16 @@ body {
 		margin: 50px 0px 100px 0px;
 	}
 
-	.carousel-control.left {
-		margin-top: 27%;
-		padding-right: 70px;
-		background-image: none;
-		font-size: 50px;
+	.heading1 {
+		font-family: 'Roboto', sans-serif;
 	}
 
-	.carousel-control.right {
-		margin-top: 27%;
-		padding-left: 50px;
-		background-image: none;
-		font-size: 50px;
+	.heading2 {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.carousel-control.left, .carousel-control.right {
+    background-image: none
 	}
 }
 
@@ -71,6 +70,14 @@ body {
 	.nd {
 		margin: 10px 0px 0px 0px;
 		text-align: justify;
+	}
+
+	.rst, .nd, .first {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.second {
+		src: url("./fonts/futura-std-medium-58f5bbb4b1d57.otf")
 	}
 
 	.c4box, .c5box {
@@ -128,8 +135,8 @@ body {
 	}
 }
 
-.c6 {
-	padding-top: 40px;
+.c6, .c8 {
+	padding-top: 60px;
 	padding-bottom: 80px;
 
 	.teambio {
@@ -142,6 +149,7 @@ body {
 
 	.bio {
 		text-align: justify;
+		margin-bottom: 80px;
 	}
 }
 
@@ -172,10 +180,6 @@ body {
 	}
 }
 
-.c8 {
-	padding: 60px 0px 80px 0px;
-}
-
 .c9 {
 	margin-top: 40px;
 
@@ -185,13 +189,4 @@ body {
 	}
 }
 
-.c10 {
-	margin-top: 40px;
-
-	.linec10 {
-		border: 1px solid $color7;
-		height: 100px;
-		width: -0px;
-		margin: -70px 0px 0px 250px;
-	}
-}
+@import 'footer.scss';
